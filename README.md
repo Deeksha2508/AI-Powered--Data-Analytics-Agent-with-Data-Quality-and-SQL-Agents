@@ -8,14 +8,16 @@ An agentic AI pipeline built in Python that automates the end-to-end data analyt
 
 ```mermaid
 flowchart LR
-    A[Data Ingestion] --> B[Data Cleaning]
-    B --> C[Data Quality<br/>Report]
-    C --> D[Analytics &<br/>SQL Querying]
-    D --> E[Visualization]
-    E --> F[AI Insights +<br/>NL Q&A]
-```
+    A[Data Ingestion]
+    B[Data Cleaning]
+    C[Data Quality Report]
+    D[Analytics & SQL Querying]
+    E[Visualization]
+    F[AI Insights + NL Q&A]
 
----
+    classDef box fill:#f5f3ff,stroke:#8b5cf6,stroke-width:1px,color:#111827;
+
+    class A,B,C,D,E,F box;
 
 ## 2. Description
 
