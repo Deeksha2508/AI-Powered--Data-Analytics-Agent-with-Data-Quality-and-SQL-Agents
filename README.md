@@ -41,35 +41,36 @@ flowchart LR
 
 ---
 
-## 4. Live link
+## 4. Live Demo
 
-Not deployed yet — the pipeline currently runs as a Google Colab notebook. A hosted demo link will be added here once a web front-end is built (see Future Improvements).
+The project currently runs as an interactive Google Colab notebook.
 
-`Link: coming soon`
+[Open Google Colab Notebook](https://colab.research.google.com/drive/1qVq3WXbE_-Y7TBTolNON7OLLSQc1FB7m#scrollTo=deCxoH0Sy8VJ)
+## 5. Screenshots
 
----
+### Sales by Region
 
-## 5. Screenshot of the Interface
+The Visualization Agent generates interactive visualizations using Plotly.
 
-There's no standalone web interface yet — the project runs interactively inside Google Colab, where each phase (ingestion → cleaning → analytics → SQL → visualization → AI insights → NL querying) is a separate cell you run in order.
+<img width="821" height="456" alt="image" src="https://github.com/user-attachments/assets/69687052-2b51-43f4-9e4e-c4a0fe5e3cc9" />
 
-*(Add a screenshot of your Colab notebook output — e.g. the Plotly chart cell or the Gemini insights printout — here once you have one.)*
 
----
+### Category Sales Distribution
 
-## 💬 Ask Your Data — In Plain English
+The agent also provides category-level sales analysis through interactive visualizations.
 
-The standout feature: you don't need to know SQL or Python to explore the data. Just ask a question the way you'd ask a colleague, and the `QueryAgent` reads the dataframe and answers directly.
+<img width="790" height="435" alt="image" src="https://github.com/user-attachments/assets/ac1ef952-c114-48c1-a23c-3df7a357e7fb" />
+
+## 💬 Ask Your Data – In Plain English
+
+The standout feature of this project is its natural-language querying capability. 
+You don't need to know SQL or Python to explore the data. Simply ask a question 
+the way you would ask a colleague, and the `QueryAgent` analyzes the dataframe 
+and provides the answer directly.
 
 ```python
 answer = query_agent.answer_question(df, "Which region has the highest profit margin?")
 print(answer)
-```
-
-Swap in your own question — `"What were total sales in the East region?"`, `"Which product category has the lowest profit?"` — no code changes needed.
-
----
-
 ## Key Features
 
 - Modular multi-agent design — each agent is independently testable
