@@ -135,7 +135,7 @@ Place `Superstore.csv` in your working directory, or upload it via Colab's file 
 
 ## Dataset
 
-The project uses the **Sample Superstore** dataset, a commonly used retail analytics dataset containing order-level records with fields like Sales, Profit, Category, Region, and Product Name.
+The project uses the **Superstore** dataset, a commonly used retail analytics dataset containing order-level records with fields like Sales, Profit, Category, Region, and Product Name.
 
 You can download it from [Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final).
 
